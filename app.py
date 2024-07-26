@@ -10,7 +10,8 @@ st.set_page_config(page_title="Similarweb Samples", page_icon="images/similarweb
 st.image("images/omri_logo.webp")
 st.title('Batch API Dataset Menu')
 st.write("#### Choose Your Dataset, View a Sample, and Get API Code")
-
+st.write("##### **this tool allows you to discover new data sets - please reach out to your Account Manager for access)
+         
 exporter = False
 # Create a checkbox with a custom label for "Advanced Mode"
 #exporter = st.checkbox("Exporter Datasets Only")
@@ -51,8 +52,12 @@ else:
 all_dataframes = list(dataframes.keys())
 
 ### remove when we fix these
-exclusion_list = ["disney_total_visits","daily_display_ads","technologies","serp","ticker_mapping_feed","russel_1000_calibrated_domains","russel_1000_calibrated_tickers","russel_1000_estimated_tickers", "russel_1000_tickers_domains","ticker_tracker_calibrated","google_keyword_calibrated","oss_keyword_calibrated","pvp_calibrated", "videos_calibrated"]
-table_names = [table for table in table_names if table not in exclusion_list]
+exclusion_list = ["apps_premium","apps_premium_affinity","subsidiaries","travel_intelligence","ticker_mapping_point_in_time","disney_total_visits","daily_display_ads","technologies","serp","ticker_mapping_feed",\n
+                  "russel_1000_calibrated_domains","russel_1000_calibrated_tickers","russel_1000_estimated_tickers",\n
+                  "russel_1000_tickers_domains","ticker_tracker_calibrated","google_keyword_calibrated","oss_keyword_calibrated",\n
+                  "pvp_calibrated", "videos_calibrated"]
+
+table_names = [table for table in table_names if table not in exclusion_list and not "s4i" in table]
 
 apps_dataframes = [x for x in table_names if "apps" in x.lower()]
 shoppers_dataframes = [x for x in table_names if "shopper" in x.lower()]
