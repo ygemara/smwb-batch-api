@@ -52,9 +52,10 @@ else:
 all_dataframes = list(dataframes.keys())
 
 ### remove when we fix these
-exclusion_list = ["apps_premium","apps_premium_affinity","subsidiaries","travel_intelligence","ticker_mapping_point_in_time","disney_total_visits","daily_display_ads","technologies","serp","ticker_mapping_feed",\n
-                  "russel_1000_calibrated_domains","russel_1000_calibrated_tickers","russel_1000_estimated_tickers",\n
-                  "russel_1000_tickers_domains","ticker_tracker_calibrated","google_keyword_calibrated","oss_keyword_calibrated",\n
+exclusion_list = ["apps_premium","apps_premium_affinity","subsidiaries","travel_intelligence","ticker_mapping_point_in_time",
+                  "disney_total_visits","daily_display_ads","technologies","serp","ticker_mapping_feed",
+                  "russel_1000_calibrated_domains","russel_1000_calibrated_tickers","russel_1000_estimated_tickers",
+                  "russel_1000_tickers_domains","ticker_tracker_calibrated","google_keyword_calibrated","oss_keyword_calibrated",
                   "pvp_calibrated", "videos_calibrated"]
 
 table_names = [table for table in table_names if table not in exclusion_list and not "s4i" in table]
