@@ -114,4 +114,4 @@ if selected_dataframe:
         st.dataframe(selected_df)  # Display the first 5 rows
         with st.expander("Batch API Request"):
             formatted_code = json.dumps(api_call_dict[df_to_display], indent=4)
-            st.json(formatted_code)
+            st.code(formatted_code,language="python")
