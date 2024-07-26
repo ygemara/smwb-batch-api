@@ -1,0 +1,13 @@
+domain,tech_id,tech_name,date,technology_parent_category,uninstalled_date,installation_date,technology_category,technology_description,
+espn.com,1195,Echo,6/23/2024,Widget,4/11/2017,9/26/2016,Widget,"Echo is the premier provider of real-time, social products.",
+espn.com,3673,Adobe Spark Links,6/23/2024,Widget,4/21/2017,4/18/2017,Widget,Websites with links to Adobe Spark images and videos services,
+espn.com,1739,Google Maps,6/23/2024,Widget,8/20/2017,9/13/2016,Mapping,Websites embedding Google maps.,
+espn.com,4222,Adobe Dynamic mBox,6/23/2024,Widget,,5/4/2018,Widget,Adobe mbox is a \marketing box,"\"" a portion of your Web page that can be configured to show different content in different situations."""
+espn.com,4238,Yahoo,6/23/2024,Widget,9/17/2023,9/10/2023,Widget,Websites using some type of Yahoo services,
+espn.com,1952,reCAPTCHA,6/23/2024,Widget,,10/21/2021,Captcha,Anti-bot CAPTCHA widget that helps digitize books by providing snippets of books for people to enter the text for. Owned by Google.,
+espn.com,4741,Neustar,6/23/2024,Tracker,11/16/2019,1/8/2019,Tracker,Neustar is a Data management solution that combines both media and audience data.,
+espn.com,6576,Facebook Pixel,6/23/2024,Tracker,,11/6/2022,Tracker,The Meta Pixel is an analytics tool that helps you measure how effective your Facebook ad campaigns are by monitoring the actions people take on your website,
+espn.com,809,Dynamic Logic,6/23/2024,Tracker,11/15/2017,8/3/2016,Tracker,"An online research company that specializes in measuring the effectiveness of 
+  online communications.",
+espn.com,732,Facebook Connect,6/23/2024,Social,,8/3/2016,Social,"Facebook Connect allow users to connect their Facebook identity, friends and, privacy to any website.
+Facebook Connect is Facebook's first attempt to allow access to Facebook user data outside of Facebook itself. The company is describing it as giving third party applications access to much of the same data as Facebook applications have today.",

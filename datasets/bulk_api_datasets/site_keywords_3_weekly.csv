@@ -1,0 +1,11 @@
+domain,country,keyword,url,search_engine_type,serp_type,date,desktop_paid_keywords_clicks,desktop_paid_keywords_url_position,mobile_paid_keywords_url_position,mobile_paid_keywords_clicks,desktop_organic_keywords_url_position,desktop_organic_keywords_clicks,mobile_organic_keywords_url_position,mobile_organic_keywords_clicks
+amazon.com,WW,amazon,amazon.com?tag=amazusnavi-20,Google Search,,2024-06-10,2717377.888259137,,,,,,,
+amazon.com,US,amazon,amazon.com?tag=amazusnavi-20,Google Search,,2024-06-10,2712540.622064261,,,,,,,
+amazon.in,WW,amazon,amazon.in,Google Search,paid,2024-06-10,862883.5070674496,,,1288998.406498173,,,,
+amazon.in,IN,amazon,amazon.in,Google Search,paid,2024-06-10,862883.5070674496,1.0,1.0,1288998.406498173,,,,
+walmart.com,WW,walmart,walmart.com,Google Search,paid,2024-06-10,780874.1512657123,,,1057554.1138433355,,,,
+walmart.com,US,walmart,walmart.com,Google Search,paid,2024-06-10,779785.3995485839,1.0,1.0,1053507.6236817092,,,,
+amazon.it,IT,amazon,amazon.it,Google Search,paid,2024-06-10,737576.260090697,1.0,1.0,531567.4191948504,,,,
+amazon.it,WW,amazon,amazon.it,Google Search,paid,2024-06-10,737576.260090697,,,531567.4191948504,,,,
+homedepot.com,WW,home depot,homedepot.com,Google Search,paid,2024-06-10,727247.2282991712,,,,,,,
+homedepot.com,US,home depot,homedepot.com,Google Search,paid,2024-06-10,727203.0930257647,1.0,,,,,,

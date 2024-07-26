@@ -1,0 +1,1751 @@
+{
+    "apps_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_daily_active_users",
+                        "apps_sessions_per_user",
+                        "apps_avg_usage_time_per_session",
+                        "apps_avg_total_usage_time_per_user",
+                        "apps_install_penetration",
+                        "apps_unique_installs",
+                        "apps_downloads",
+                        "apps_daily_active_users_ios",
+                        "apps_daily_active_users_android"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "apps_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_demographics_age_18_to_24_percentage",
+                        "apps_demographics_age_25_to_34_percentage",
+                        "apps_demographics_age_35_to_44_percentage",
+                        "apps_demographics_age_45_to_54_percentage",
+                        "apps_demographics_age_55_plus_percentage",
+                        "apps_demographics_male_percentage",
+                        "apps_demographics_female_percentage",
+                        "apps_daily_active_users",
+                        "apps_sessions_per_user",
+                        "apps_avg_usage_time_per_session",
+                        "apps_avg_total_usage_time_per_user",
+                        "apps_install_penetration",
+                        "apps_unique_installs",
+                        "apps_downloads",
+                        "apps_daily_active_users_ios",
+                        "apps_monthly_active_users_android",
+                        "apps_monthly_active_users_ios",
+                        "apps_daily_active_users_android"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "apps_weekly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps",
+                    "granularity": "weekly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_weekly_active_users_android",
+                        "apps_weekly_active_users_ios"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "apps_affinity_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps_affinity",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_affinity_android"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "apps_premium_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps_premium",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_data_ai_retention_day_30_android",
+                        "apps_data_ai_retention_day_30_ios",
+                        "apps_data_ai_monthly_active_users_ios",
+                        "apps_data_ai_total_sessions_ios",
+                        "apps_data_ai_total_time_ios",
+                        "apps_data_ai_average_monthly_user_sessions_ios",
+                        "apps_data_ai_average_session_length_ios",
+                        "apps_data_ai_average_monthly_user_time_spent_ios",
+                        "apps_data_ai_install_base_ios",
+                        "apps_data_ai_open_rate_ios",
+                        "apps_data_ai_monthly_active_users_android",
+                        "apps_data_ai_total_sessions_android",
+                        "apps_data_ai_total_time_android",
+                        "apps_data_ai_average_monthly_user_sessions_android",
+                        "apps_data_ai_average_session_length_android",
+                        "apps_data_ai_average_monthly_user_time_spent_android",
+                        "apps_data_ai_install_base_android",
+                        "apps_data_ai_open_rate_android"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "apps_premium_affinity_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps_premium_affinity",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_data_ai_affinity_ios",
+                        "apps_data_ai_affinity_android"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "apps_ranking_history_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps_ranking_history",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_ranking_history_ios",
+                        "apps_ranking_history_android"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "apps_retention_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "apps_retention",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "apps_retention_android"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "audience_interests_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "audience_interests",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "mobile_audience_interests_affinity",
+                        "mobile_audience_interests_overlap",
+                        "desktop_audience_interests_affinity",
+                        "desktop_audience_interests_overlap"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "channel_conversion_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "channel_conversion",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "channel_sector",
+                        "channel_visits",
+                        "channel_converted_visits",
+                        "channel_conversion_rate"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "daily_display_ads_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "daily_display_ads",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "advertiser_main_domain",
+                        "page_title",
+                        "publisher_domain",
+                        "ad_height",
+                        "ad_width",
+                        "ad_type",
+                        "country",
+                        "device",
+                        "landing_page",
+                        "visits_count",
+                        "ad_channel"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "demographics_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "demographics",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "demographics_share",
+                        "demographics_avg_visit_duration",
+                        "demographics_bounce_rate",
+                        "demographics_pages_per_visit"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "disney_total_visits_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "disney_total_visits",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "dsn_total_visits"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "google_keyword_calibrated_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "google_keyword_calibrated",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "google_kw__platform",
+                        "google_kw__referral_type",
+                        "google_kw__clean_landingpage",
+                        "google_kw__calibrated_users",
+                        "google_kw__calibrated_clicks",
+                        "google_kw__is_branded_keyword",
+                        "google_kw__is_question"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "keywords_3_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "keywords_3",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "keywords_volume"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "keywords_3_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "keywords_3",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "keywords_volume"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "marketing_channels_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "marketing_channels",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_marketing_channels_visits",
+                        "desktop_marketing_channels_share"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "marketing_channels_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "marketing_channels",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_marketing_channels_visits",
+                        "desktop_marketing_channels_share",
+                        "mobile_marketing_channels_visits",
+                        "mobile_marketing_channels_share"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "oss_keyword_calibrated_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "oss_keyword_calibrated",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "oss_kw__calibrated_users",
+                        "oss_kw__calibrated_visits",
+                        "oss_kw__oss_keyword"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "oss_phrase_conversion_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "oss_phrase_conversion",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "oss_phrase_sector",
+                        "oss_phrase_rank",
+                        "oss_phrase_conversion_rate",
+                        "oss_phrase_visits",
+                        "oss_phrase_converted_visits"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "pvp_calibrated_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "pvp_calibrated",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "pvp_calibrated__calibrated_visits",
+                        "pvp_calibrated__calibrated_users",
+                        "pvp_calibrated__rule_name"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "redirects_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "redirects",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "last_crawled",
+                        "last_seen"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "referrals_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "referrals",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_referral_visits",
+                        "desktop_referral_change",
+                        "desktop_referral_share",
+                        "mobile_referral_visits",
+                        "mobile_referral_change",
+                        "mobile_referral_share",
+                        "desktop_outgoing_referral_visits",
+                        "desktop_outgoing_referral_change",
+                        "desktop_outgoing_referral_share"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "russel_1000_calibrated_domains_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "russel_1000_calibrated_domains",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "russel_1000_calibrated_domains__russel_1000_calibrated_visits",
+                        "russel_1000_calibrated_domains__russel_1000_calibrated_bounce_rate",
+                        "russel_1000_calibrated_domains__russel_1000_calibrated_pages_per_visit",
+                        "russel_1000_calibrated_domains__russel_1000_calibrated_avg_visit_duration"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "russel_1000_calibrated_tickers_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "russel_1000_calibrated_tickers",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "russel_1000_calibrated_tickers__desktop_calibrated_visits",
+                        "russel_1000_calibrated_tickers__desktop_bounce_rate",
+                        "russel_1000_calibrated_tickers__desktop_avg_visit_duration",
+                        "russel_1000_calibrated_tickers__desktop_pages_per_visit"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "russel_1000_estimated_tickers_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "russel_1000_estimated_tickers",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "russel_1000_estimated_tickers__desktop_visits",
+                        "russel_1000_estimated_tickers__desktop_bounce_rate",
+                        "russel_1000_estimated_tickers__desktop_avg_visit_duration",
+                        "russel_1000_estimated_tickers__desktop_pages_per_visit",
+                        "russel_1000_estimated_tickers__mobile_visits",
+                        "russel_1000_estimated_tickers__mobile_bounce_rate",
+                        "russel_1000_estimated_tickers__mobile_avg_visit_duration",
+                        "russel_1000_estimated_tickers__mobile_pages_per_visit",
+                        "russel_1000_estimated_tickers__total_visits",
+                        "russel_1000_estimated_tickers__total_bounce_rate",
+                        "russel_1000_estimated_tickers__total_avg_visit_duration",
+                        "russel_1000_estimated_tickers__total_pages_per_visit"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "russel_1000_tickers_domains_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "russel_1000_tickers_domains",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "russel_1000_estimated_domains__desktop_visits",
+                        "russel_1000_estimated_domains__desktop_bounce_rate",
+                        "russel_1000_estimated_domains__desktop_avg_visit_duration",
+                        "russel_1000_estimated_domains__desktop_pages_per_visit",
+                        "russel_1000_estimated_domains__mobile_visits",
+                        "russel_1000_estimated_domains__mobile_bounce_rate",
+                        "russel_1000_estimated_domains__mobile_avg_visit_duration",
+                        "russel_1000_estimated_domains__mobile_pages_per_visit",
+                        "russel_1000_estimated_domains__total_visits",
+                        "russel_1000_estimated_domains__total_bounce_rate",
+                        "russel_1000_estimated_domains__total_avg_visit_duration",
+                        "russel_1000_estimated_domains__total_pages_per_visit"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_brand_category_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_brand_category",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_brand_category",
+                        "brand_sales_performance_product_views",
+                        "brand_sales_performance_units_sold",
+                        "brand_sales_performance_revenue",
+                        "brand_sales_performance_cvr",
+                        "brand_sales_performance_units_sold_1P",
+                        "brand_sales_performance_units_sold_3P",
+                        "brand_sales_performance_revenue_1P",
+                        "brand_sales_performance_revenue_3P"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_category_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_category",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_category",
+                        "category_sales_performance_product_views",
+                        "category_sales_performance_units_sold",
+                        "category_sales_performance_revenue",
+                        "category_sales_performance_cvr",
+                        "category_sales_performance_units_sold_1P",
+                        "category_sales_performance_units_sold_3P",
+                        "category_sales_performance_revenue_1P",
+                        "category_sales_performance_revenue_3P"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_category_top_brands_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_category_top_brands",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_top_brands_category",
+                        "category_sales_performance_top_brands_units_sold",
+                        "category_sales_performance_top_brands_revenue",
+                        "category_sales_performance_top_brands_product_views",
+                        "category_sales_performance_top_brands_cvr"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_keyword_product_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_keyword_product",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_keyword_product_price_numerator",
+                        "shopper_keyword_product_price_denominator",
+                        "shopper_keyword_product_total_scrapes",
+                        "shopper_keyword_product_appearances",
+                        "shopper_keyword_product_avg_ranking",
+                        "shopper_keyword_product_organic_top10_appearances",
+                        "shopper_keyword_product_organic_p1_appearances",
+                        "shopper_keyword_product_organic_p2_appearances",
+                        "shopper_keyword_product_brand",
+                        "shopper_keyword_product_leaf_category_id",
+                        "shopper_keyword_product_search_volume",
+                        "shopper_keyword_product_organic_clicks",
+                        "shopper_keyword_product_paid_clicks",
+                        "shopper_keyword_product_keyword_organic_clicks",
+                        "shopper_keyword_product_keyword_paid_clicks",
+                        "shopper_keyword_product_parent_asin_organic_clicks",
+                        "shopper_keyword_product_parent_asin_paid_clicks",
+                        "shopper_keyword_product_branded",
+                        "shopper_keyword_product_avg_organic_ranking",
+                        "shopper_keyword_product_keyword_product_features",
+                        "shopper_keyword_product_keyword_features",
+                        "shopper_keyword_product_total_clicks"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_keyword_product_weekly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_keyword_product",
+                    "granularity": "weekly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_keyword_product_price_numerator",
+                        "shopper_keyword_product_price_denominator",
+                        "shopper_keyword_product_total_scrapes",
+                        "shopper_keyword_product_appearances",
+                        "shopper_keyword_product_avg_ranking",
+                        "shopper_keyword_product_organic_top10_appearances",
+                        "shopper_keyword_product_organic_p1_appearances",
+                        "shopper_keyword_product_organic_p2_appearances",
+                        "shopper_keyword_product_brand",
+                        "shopper_keyword_product_leaf_category_id",
+                        "shopper_keyword_product_search_volume",
+                        "shopper_keyword_product_organic_clicks",
+                        "shopper_keyword_product_paid_clicks",
+                        "shopper_keyword_product_keyword_organic_clicks",
+                        "shopper_keyword_product_keyword_paid_clicks",
+                        "shopper_keyword_product_parent_asin_organic_clicks",
+                        "shopper_keyword_product_parent_asin_paid_clicks",
+                        "shopper_keyword_product_branded",
+                        "shopper_keyword_product_avg_organic_ranking",
+                        "shopper_keyword_product_keyword_product_features",
+                        "shopper_keyword_product_keyword_features",
+                        "shopper_keyword_product_total_clicks"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_keywords_brand_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_keywords_brand",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "brand_onsite_search_top_keywords_brand_clicks",
+                        "brand_onsite_search_top_keywords_brand_organic_clicks_share",
+                        "brand_onsite_search_top_keywords_brand_paid_clicks_share",
+                        "brand_onsite_search_top_keywords_total_clicks",
+                        "brand_onsite_search_top_keywords_brand_share"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_keywords_category_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_keywords_category",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "category_onsite_search_top_keywords_total_clicks",
+                        "category_onsite_search_top_keywords_organic_clicks_share",
+                        "category_onsite_search_top_keywords_paid_clicks_share",
+                        "category_onsite_search_top_keywords_top_brand",
+                        "category_onsite_search_top_keywords_top_brand_share"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_products_brand_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_products_brand",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "brand_sales_performance_top_products_num_asins",
+                        "brand_sales_performance_top_products_units_sold",
+                        "brand_sales_performance_top_products_revenue",
+                        "brand_sales_performance_top_products_product_views",
+                        "brand_sales_performance_top_products_average_unit_price",
+                        "brand_sales_performance_top_products_reviews",
+                        "brand_sales_performance_top_products_rating",
+                        "brand_sales_performance_top_products_category_name",
+                        "brand_sales_performance_top_products_asin_name",
+                        "brand_sales_performance_top_products_variations"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_products_category_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_products_category",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "category_sales_performance_top_products_num_asins",
+                        "category_sales_performance_top_products_units_sold",
+                        "category_sales_performance_top_products_revenue",
+                        "category_sales_performance_top_products_product_views",
+                        "category_sales_performance_top_products_average_unit_price",
+                        "category_sales_performance_top_products_reviews",
+                        "category_sales_performance_top_products_rating",
+                        "category_sales_performance_top_products_asin_name",
+                        "category_sales_performance_top_products_brand",
+                        "category_sales_performance_top_products_variations",
+                        "category_sales_performance_top_products_category_depth",
+                        "category_sales_performance_top_products_category_name"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_s4i_brand_category_firstp_thirdp_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_s4i_brand_category_firstp_thirdp",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_s4i_brand_sales_performance_category_name",
+                        "shopper_s4i_brand_sales_performance_units_sold",
+                        "shopper_s4i_brand_sales_performance_revenue",
+                        "shopper_s4i_brand_sales_performance_product_views",
+                        "shopper_s4i_brand_sales_performance_cvr",
+                        "shopper_s4i_brand_sales_performance_units_sold_1p",
+                        "shopper_s4i_brand_sales_performance_units_sold_3p",
+                        "shopper_s4i_brand_sales_performance_revenue_1p",
+                        "shopper_s4i_brand_sales_performance_revenue_3p"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_s4i_brand_top_products_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_s4i_brand_top_products",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_s4i_brand_top_products_units_sold",
+                        "shopper_s4i_brand_top_products_revenue",
+                        "shopper_s4i_brand_top_products_product_views",
+                        "shopper_s4i_brand_top_products_average_unit_price",
+                        "shopper_s4i_brand_top_products_reviews",
+                        "shopper_s4i_brand_top_products_rating",
+                        "shopper_s4i_brand_top_products_asin_name",
+                        "shopper_s4i_brand_top_products_variations",
+                        "shopper_s4i_brand_top_products_num_asins",
+                        "shopper_s4i_brand_top_products_category_depth",
+                        "shopper_s4i_brand_top_products_category_name"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_s4i_category_firstp_thirdp_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_s4i_category_firstp_thirdp",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_s4i_category_sales_performance_category_name",
+                        "shopper_s4i_category_sales_performance_units_sold",
+                        "shopper_s4i_category_sales_performance_revenue",
+                        "shopper_s4i_category_sales_performance_product_views",
+                        "shopper_s4i_category_sales_performance_cvr",
+                        "shopper_s4i_category_sales_performance_units_sold_1p",
+                        "shopper_s4i_category_sales_performance_units_sold_3p",
+                        "shopper_s4i_category_sales_performance_revenue_1p",
+                        "shopper_s4i_category_sales_performance_revenue_3p"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_s4i_category_top_brands_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_s4i_category_top_brands",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_s4i_category_top_brands_units_sold",
+                        "shopper_s4i_category_top_brands_cvr",
+                        "shopper_s4i_category_top_brands_revenue",
+                        "shopper_s4i_category_top_brands_product_views",
+                        "shopper_s4i_category_top_brands_category_name"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "shopper_s4i_category_top_products_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "shopper_s4i_category_top_products",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "shopper_s4i_category_top_products_num_asins",
+                        "shopper_s4i_category_top_products_category_depth",
+                        "shopper_s4i_category_top_products_units_sold",
+                        "shopper_s4i_category_top_products_revenue",
+                        "shopper_s4i_category_top_products_product_views",
+                        "shopper_s4i_category_top_products_average_unit_price",
+                        "shopper_s4i_category_top_products_reviews",
+                        "shopper_s4i_category_top_products_rating",
+                        "shopper_s4i_category_top_products_asin_name",
+                        "shopper_s4i_category_top_products_brand",
+                        "shopper_s4i_category_top_products_variations",
+                        "shopper_s4i_category_top_products_category_name"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "similar_sites_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "similar_sites",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "site_affinity"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "site_conversion_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "site_conversion",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "segment_conversion_stickiness",
+                        "stickiness_sector",
+                        "site_visits",
+                        "site_conversion_rate",
+                        "site_converted_visits",
+                        "site_sector"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "site_keywords_7days": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "site_keywords",
+                    "granularity": "7days",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_keywords_total_visits",
+                        "desktop_keywords_organic_visits",
+                        "desktop_keywords_paid_visits",
+                        "desktop_keywords_total_share",
+                        "desktop_keywords_organic_share",
+                        "desktop_keywords_paid_share",
+                        "desktop_keywords_top_all_url_position",
+                        "desktop_keywords_top_organic_url_position",
+                        "desktop_keywords_top_paid_url_position",
+                        "desktop_keywords_top_all_url",
+                        "desktop_keywords_top_organic_url",
+                        "desktop_keywords_top_paid_url"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "site_keywords_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "site_keywords",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "keyword_branding_rank"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "site_keywords_weekly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "site_keywords",
+                    "granularity": "weekly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_keywords_total_visits",
+                        "desktop_keywords_organic_visits",
+                        "desktop_keywords_paid_visits",
+                        "desktop_keywords_total_share",
+                        "desktop_keywords_organic_share",
+                        "desktop_keywords_paid_share",
+                        "desktop_keywords_top_all_url_position",
+                        "desktop_keywords_top_organic_url_position",
+                        "desktop_keywords_top_paid_url_position",
+                        "desktop_keywords_top_all_url",
+                        "desktop_keywords_top_organic_url",
+                        "desktop_keywords_top_paid_url"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "site_keywords_3_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "site_keywords_3",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_paid_keywords_clicks",
+                        "desktop_paid_keywords_url_position",
+                        "mobile_paid_keywords_url_position",
+                        "mobile_paid_keywords_clicks",
+                        "desktop_organic_keywords_url_position",
+                        "desktop_organic_keywords_clicks",
+                        "mobile_organic_keywords_url_position",
+                        "mobile_organic_keywords_clicks"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "site_keywords_3_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "site_keywords_3",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_paid_keywords_clicks",
+                        "desktop_paid_keywords_url_position",
+                        "mobile_paid_keywords_url_position",
+                        "mobile_paid_keywords_clicks",
+                        "desktop_organic_keywords_url_position",
+                        "desktop_organic_keywords_clicks",
+                        "mobile_organic_keywords_url_position",
+                        "mobile_organic_keywords_clicks"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "site_keywords_3_weekly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "site_keywords_3",
+                    "granularity": "weekly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_paid_keywords_clicks",
+                        "desktop_paid_keywords_url_position",
+                        "mobile_paid_keywords_url_position",
+                        "mobile_paid_keywords_clicks",
+                        "desktop_organic_keywords_url_position",
+                        "desktop_organic_keywords_clicks",
+                        "mobile_organic_keywords_url_position",
+                        "mobile_organic_keywords_clicks"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "subsidiaries_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "subsidiaries",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "subsidiary_parent_company_name",
+                        "subsidiary_name"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "technographics_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "technographics",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "technology_parent_category",
+                        "uninstalled_date",
+                        "tech_name",
+                        "installation_date",
+                        "technology_category",
+                        "technology_description"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "technologies_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "technologies",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "technologies__site_category",
+                        "technologies__total_estimated_visits",
+                        "technologies__total_estimated_unique",
+                        "technologies__total_bounce_rate",
+                        "technologies__fill_confidence"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "ticker_mapping_feed_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "ticker_mapping_feed",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "isin_code"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "ticker_mapping_point_in_time_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "ticker_mapping_point_in_time",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "pit_isin_code",
+                        "pit_ticker_sector",
+                        "pit_ticker_industry_group",
+                        "pit_ticker_industry",
+                        "pit_ticker_parent_name",
+                        "pit_ticker_parent_domain",
+                        "pit_ticker_subsidiary_domain",
+                        "pit_ticker_subsidiary_name",
+                        "pit_ticker_start_date",
+                        "pit_ticker_end_date"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "ticker_tracker_calibrated_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "ticker_tracker_calibrated",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "ticker_tracker__calibrated_users",
+                        "ticker_tracker__calibrated_visits",
+                        "ticker_tracker__oss_keyword"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "traffic_and_engagement_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "traffic_and_engagement",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_visits",
+                        "desktop_pages_per_visit",
+                        "desktop_bounce_rate",
+                        "mobile_visits",
+                        "mobile_pages_per_visit",
+                        "mobile_bounce_rate",
+                        "mobile_average_visit_duration",
+                        "all_traffic_visits",
+                        "all_traffic_pages_per_visit",
+                        "all_traffic_average_visit_duration",
+                        "all_traffic_bounce_rate",
+                        "desktop_unique_visitors",
+                        "mobile_unique_visitors",
+                        "desktop_average_visit_duration",
+                        "desktop_share",
+                        "mobile_share",
+                        "desktop_page_views",
+                        "mobile_page_views",
+                        "all_page_views",
+                        "desktop_marketing_channels"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "traffic_and_engagement_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "traffic_and_engagement",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_visits",
+                        "desktop_pages_per_visit",
+                        "desktop_bounce_rate",
+                        "mobile_visits",
+                        "mobile_pages_per_visit",
+                        "mobile_bounce_rate",
+                        "mobile_average_visit_duration",
+                        "all_traffic_visits",
+                        "all_traffic_pages_per_visit",
+                        "all_traffic_average_visit_duration",
+                        "all_traffic_bounce_rate",
+                        "global_rank",
+                        "country_rank",
+                        "category",
+                        "category_rank_new",
+                        "desktop_unique_visitors",
+                        "mobile_unique_visitors",
+                        "desktop_average_visit_duration",
+                        "desktop_share",
+                        "mobile_share",
+                        "desktop_page_views",
+                        "mobile_page_views",
+                        "all_page_views",
+                        "all_males_share",
+                        "all_females_share",
+                        "desktop_ages_18_to_24_share",
+                        "desktop_ages_25_to_34_share",
+                        "desktop_ages_35_to_44_share",
+                        "desktop_ages_45_to_54_share",
+                        "desktop_ages_55_to_64_share",
+                        "desktop_ages_65_plus_share",
+                        "desktop_ppc_spend_usd",
+                        "mobile_ppc_spend_usd",
+                        "deduplicated_audience",
+                        "mobile_ages_25_to_34_share",
+                        "mobile_ages_35_to_44_share",
+                        "mobile_ages_45_to_54_share",
+                        "mobile_ages_55_to_64_share",
+                        "mobile_ages_65_plus_share",
+                        "mobile_ages_18_to_24_share",
+                        "desktop_new_visitors",
+                        "desktop_returning_visitors",
+                        "mobile_marketing_channels",
+                        "desktop_marketing_channels"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "traffic_and_engagement_weekly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "traffic_and_engagement",
+                    "granularity": "weekly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "desktop_visits",
+                        "desktop_pages_per_visit",
+                        "desktop_bounce_rate",
+                        "mobile_visits",
+                        "mobile_pages_per_visit",
+                        "mobile_bounce_rate",
+                        "mobile_average_visit_duration",
+                        "all_traffic_visits",
+                        "all_traffic_pages_per_visit",
+                        "all_traffic_average_visit_duration",
+                        "all_traffic_bounce_rate",
+                        "desktop_average_visit_duration",
+                        "desktop_share",
+                        "mobile_share",
+                        "desktop_marketing_channels"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "traffic_sources_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "traffic_sources",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "channel",
+                        "desktop_traffic_source_share"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "travel_intelligence_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "travel_intelligence",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "bookings"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "videos_calibrated_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "videos_calibrated",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "videos_calibrated__page_views",
+                        "videos_calibrated__calibrated_page_views",
+                        "videos_calibrated__calibrated_visits",
+                        "videos_calibrated__calibrated_users"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "web_app_cross_use_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "web_app_cross_use",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "app_web_affinity",
+                        "app_web_cross_usage"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "website_monthly": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "website",
+                    "granularity": "monthly",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "main_category",
+                        "sub_category",
+                        "online_revenue",
+                        "ecommerce_type",
+                        "first_level_domain",
+                        "description"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    },
+    "youtube_keywords_daily": {
+        "delivery_information": {
+            "response_format": "csv"
+        },
+        "report_query": {
+            "tables": [
+                {
+                    "vtable": "youtube_keywords",
+                    "granularity": "daily",
+                    "latest": true,
+                    "filters": {},
+                    "metrics": [
+                        "clicks"
+                    ],
+                    "paging": {
+                        "limit": 10
+                    }
+                }
+            ]
+        }
+    }
+}

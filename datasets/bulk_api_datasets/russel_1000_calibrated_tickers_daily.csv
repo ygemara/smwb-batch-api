@@ -1,0 +1,11 @@
+ticker,company_name,country,date,russel_1000_calibrated_tickers__desktop_calibrated_visits,russel_1000_calibrated_tickers__desktop_bounce_rate,russel_1000_calibrated_tickers__desktop_avg_visit_duration,russel_1000_calibrated_tickers__desktop_pages_per_visit
+GOOGL,Alphabet Inc Class A,WW,2024-06-25,8696010.45,0.2341,1006,12.65
+GOOG,Alphabet Inc Class C,WW,2024-06-25,8696010.45,0.2341,1006,12.65
+FB,Facebook,WW,2024-06-25,2368094.74,0.262,1081,10.27
+MSFT,Microsoft Corp.,WW,2024-06-25,610765.63,0.2932,506,7.62
+AMZN,"Amazon.com, Inc.",WW,2024-06-25,532472.46,0.2603,524,11.02
+VZ,Verizon,WW,2024-06-25,422172.06,0.2851,691,6.61
+NFLX,Netflix Inc,WW,2024-06-25,241616.44,0.4078,492,4.1
+PINS,"Pinterest, Inc.",WW,2024-06-25,141736.64,0.2758,610,9.6
+EBAY,eBay,WW,2024-06-25,141695.15,0.2357,490,8.05
+TWTR,"Twitter, Inc.",WW,2024-06-25,103146.77,0.375,541,9.65

@@ -1,0 +1,11 @@
+exchange,ticker,report,yearmonth,pit_isin_code,pit_ticker_sector,pit_ticker_industry_group,pit_ticker_industry,pit_ticker_parent_name,pit_ticker_parent_domain,pit_ticker_subsidiary_domain,pit_ticker_subsidiary_name,pit_ticker_start_date,pit_ticker_end_date
+ZSE,LACZ,EMEA,2024-05,ZW0009012445,,,,Khayah Cement Ltd.,lafarge.co.zw,lafarge.co.zw,Khayah Cement Ltd.,1954-01-01,2100-01-01
+ZSE,LACZ,GLOBAL,2024-05,ZW0009012445,,,,Khayah Cement Ltd.,lafarge.co.zw,lafarge.co.zw,Khayah Cement Ltd.,1954-01-01,2100-01-01
+ZSE,EHZL,EMEA,2024-05,ZW0009012437,,,,EcoCash Holdings Zimbabwe Ltd.,ecocashholdings.co.zw,ecocashholdings.co.zw,EcoCash Holdings Zimbabwe Ltd.,2012-03-29,2100-01-01
+ZSE,EHZL,GLOBAL,2024-05,ZW0009012437,,,,EcoCash Holdings Zimbabwe Ltd.,ecocashholdings.co.zw,ecocashholdings.co.zw,EcoCash Holdings Zimbabwe Ltd.,2012-03-29,2100-01-01
+ZSE,TANG,EMEA,2024-05,ZW0009012411,,,,Tanganda Tea Co. Ltd.,tanganda.com,tanganda.com,Tanganda Tea Co. Ltd.,1924-01-01,2100-01-01
+ZSE,TANG,GLOBAL,2024-05,ZW0009012411,,,,Tanganda Tea Co. Ltd.,tanganda.com,tanganda.com,Tanganda Tea Co. Ltd.,1924-01-01,2100-01-01
+ZSE,FCA,EMEA,2024-05,ZW0009012353,,,,First Capital Bank Ltd.,firstcapitalbank.co.zw,firstcapitalbank.co.zw,First Capital Bank Ltd. BW,2008-06-01,2100-01-01
+ZSE,FCA,EMEA,2024-05,ZW0009012353,,,,First Capital Bank Ltd.,firstcapitalbank.co.zw,firstcapitalbank.co.zm,First Capital Bank Ltd. BW,2008-06-01,2100-01-01
+ZSE,FCA,EMEA,2024-05,ZW0009012353,,,,First Capital Bank Ltd.,firstcapitalbank.co.zw,firstcapitalbank.co.mz,First Capital Bank Ltd. BW,2008-06-01,2100-01-01
+ZSE,FCA,EMEA,2024-05,ZW0009012353,,,,First Capital Bank Ltd.,firstcapitalbank.co.zw,firstcapitalbank.co.bw,First Capital Bank Ltd. BW,2008-06-01,2100-01-01

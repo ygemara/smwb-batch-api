@@ -1,0 +1,11 @@
+domain,country,keyword,url,search_engine_type,serp_type,yearmonth,desktop_paid_keywords_clicks,desktop_paid_keywords_url_position,mobile_paid_keywords_url_position,mobile_paid_keywords_clicks,desktop_organic_keywords_url_position,desktop_organic_keywords_clicks,mobile_organic_keywords_url_position,mobile_organic_keywords_clicks
+amazon.com,WW,amazon,amazon.com?tag=amazusnavi-20,Google Search,,2024-05,12653751.179873386,,,,,,,
+amazon.com,US,amazon,amazon.com?tag=amazusnavi-20,Google Search,,2024-05,12625479.634203618,,,,,,,
+jiocinema.com,WW,jiocinema,jiocinema.com/subscription/plans?gad_source=1&utm_campaign=SVOD_PM_JioCinema_Web_Search_BAU_Brand-Exact_Acq_11May'24&utm_medium=search_google&utm_source=google_web,Google Search,,2024-05,3079528.8173346245,,,,,,,
+jiocinema.com,IN,jiocinema,jiocinema.com/subscription/plans?gad_source=1&utm_campaign=SVOD_PM_JioCinema_Web_Search_BAU_Brand-Exact_Acq_11May'24&utm_medium=search_google&utm_source=google_web,Google Search,,2024-05,3077415.427587334,,,,,,,
+amazon.in,WW,amazon,amazon.in,Google Search,paid,2024-05,2278721.5169684463,,,2004284.2389825808,,,,
+amazon.in,WW,amazon,amazon.in,Google Search,paid,2024-05,2278721.5169684463,,,1127858.7489187554,,,,
+amazon.in,WW,amazon,amazon.in,Google Search,paid,2024-05,2278721.5169684463,,,1990978.9283452192,,,,
+amazon.in,WW,amazon,amazon.in,Google Search,paid,2024-05,2278721.5169684463,,,3210814.5180246085,,,,
+amazon.in,IN,amazon,amazon.in,Google Search,paid,2024-05,2278721.516968446,1.0,1.0,1990978.9283452197,,,,
+amazon.in,IN,amazon,amazon.in,Google Search,paid,2024-05,2278721.516968446,1.0,1.0,2004284.2389825808,,,,

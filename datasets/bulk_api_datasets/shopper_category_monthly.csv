@@ -1,0 +1,11 @@
+domain,category_id,shopper_category,yearmonth,category_sales_performance_product_views,category_sales_performance_units_sold,category_sales_performance_revenue,category_sales_performance_cvr,category_sales_performance_units_sold_1P,category_sales_performance_units_sold_3P,category_sales_performance_revenue_1P,category_sales_performance_revenue_3P
+amazon.de,10084752031,Watches > Women > Wrist Watches,2024-05,554054,19339,991937,0.032,3473.2844,15865.7156,351939.2476,639997.7524
+amazon.de,10084751031,Watches > Women > Watch Straps,2024-05,100218,4881,60897,0.044,,,,
+amazon.de,14357342031,Watches > Women > Fashion Smartwatches,2024-05,185658,6932,173826,0.034,198.9484,6733.051600000001,14427.558,159398.442
+amazon.de,10084749031,Watches > Women,2024-05,847840,31758,1231073,0.034,3204.3822,28553.6178,257417.3643,973655.6357
+amazon.de,198802031,Watches > Watch Accessories > Watch Winders,2024-05,39259,1893,137468,0.044,,,,
+amazon.de,198801031,Watches > Watch Accessories > Watch Boxes,2024-05,94939,4774,126190,0.046,37.2372,4736.7628,2284.039,123905.961
+amazon.de,198799031,Watches > Watch Accessories > Repair Tools & Kits,2024-05,222897,15744,178549,0.064,44.0832,15699.9168,1142.7136,177406.2864
+amazon.de,10084746031,Watches > Watch Accessories > Batteries,2024-05,50906,11966,35041,0.214,70.5994,11895.4006,480.0617,34560.9383
+amazon.de,198798031,Watches > Watch Accessories,2024-05,439604,36308,502688,0.075,265.0484,36042.9516,8545.696,494142.304
+amazon.de,10084742031,Watches > Men > Wrist Watches,2024-05,3730621,112118,11276145,0.027,13655.9724,98462.0276,1657593.315,9618551.685

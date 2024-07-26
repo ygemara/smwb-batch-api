@@ -1,0 +1,11 @@
+domain,country,keyword,url,search_engine_type,serp_type,date,desktop_paid_keywords_clicks,desktop_paid_keywords_url_position,mobile_paid_keywords_url_position,mobile_paid_keywords_clicks,desktop_organic_keywords_url_position,desktop_organic_keywords_clicks,mobile_organic_keywords_url_position,mobile_organic_keywords_clicks
+amazon.com,WW,amazon,amazon.com?tag=amazusnavi-20,Google Search,,2024-06-24,434382.2932573312,,,,,,,
+amazon.com,US,amazon,amazon.com?tag=amazusnavi-20,Google Search,,2024-06-24,433079.7206248729,,,,,,,
+amazon.in,WW,amazon,amazon.in,Google Search,paid,2024-06-24,142868.09693353574,,,255458.3111065841,,,,
+amazon.in,WW,amazon,amazon.in,Google Search,paid,2024-06-24,142868.09693353574,,,8515.277036886133,,,,
+amazon.in,IN,amazon,amazon.in,Google Search,paid,2024-06-24,142868.09693353574,1.0,1.0,255458.3111065841,,,,
+amazon.in,IN,amazon,amazon.in,Google Search,paid,2024-06-24,142868.09693353574,1.0,1.0,8515.277036886133,,,,
+homedepot.com,WW,home depot,homedepot.com,Google Search,paid,2024-06-24,109345.74451574884,,,,,,,
+homedepot.com,US,home depot,homedepot.com,Google Search,paid,2024-06-24,109345.74451574884,1.0,,,,,,
+lowes.com,US,lowes,lowes.com?cm_mmc=src-_-c-_-brd-_-mdv-_-ggl-_-CRP_SRC_Brand_BC_Traffic_MULTI-_-lowes-_-0-_-0-_-0&gad_source=1,Google Search,,2024-06-24,97883.18402102064,,,,,,,
+lowes.com,WW,lowes,lowes.com?cm_mmc=src-_-c-_-brd-_-mdv-_-ggl-_-CRP_SRC_Brand_BC_Traffic_MULTI-_-lowes-_-0-_-0-_-0&gad_source=1,Google Search,,2024-06-24,97883.18402102064,,,,,,,

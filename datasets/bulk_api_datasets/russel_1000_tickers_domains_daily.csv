@@ -1,0 +1,11 @@
+ticker,company_name,domain,date,russel_1000_estimated_domains__desktop_visits,russel_1000_estimated_domains__desktop_bounce_rate,russel_1000_estimated_domains__desktop_avg_visit_duration,russel_1000_estimated_domains__desktop_pages_per_visit,russel_1000_estimated_domains__mobile_visits,russel_1000_estimated_domains__mobile_bounce_rate,russel_1000_estimated_domains__mobile_avg_visit_duration,russel_1000_estimated_domains__mobile_pages_per_visit,russel_1000_estimated_domains__total_visits,russel_1000_estimated_domains__total_bounce_rate,russel_1000_estimated_domains__total_avg_visit_duration,russel_1000_estimated_domains__total_pages_per_visit
+GOOG,Alphabet Inc Class C,google.com,2024-06-25,1217582395.0,0.2327,1020,12.59,1655046500.0,0.3106,400,6.19,2872628895.0,0.2776,663,8.9
+GOOGL,Alphabet Inc Class A,google.com,2024-06-25,1217582395.0,0.2327,1020,12.59,1655046500.0,0.3106,400,6.19,2872628895.0,0.2776,663,8.9
+FB,Facebook,facebook.com,2024-06-25,221128314.0,0.2293,907,13.6,298549234.0,0.3691,432,6.67,519677548.0,0.3096,634,9.62
+FB,Facebook,whatsapp.com,2024-06-25,87498432.0,0.3447,1521,1.86,22267284.0,0.6645,159,2.08,109765716.0,0.4096,1245,1.9
+VZ,Verizon,yahoo.com,2024-06-25,79741815.0,0.2916,684,6.46,42995798.0,0.4303,243,4.0,122737613.0,0.3402,530,5.6
+AMZN,"Amazon.com, Inc.",amazon.com,2024-06-25,51690409.0,0.2463,562,11.96,27788184.0,0.5288,208,5.41,79478593.0,0.3451,439,9.67
+MSFT,Microsoft Corp.,linkedin.com,2024-06-25,49978265.0,0.1583,650,10.09,19623070.0,0.4446,131,4.39,69601335.0,0.239,504,8.48
+NFLX,Netflix Inc,netflix.com,2024-06-25,44402561.0,0.4078,492,4.1,4628337.0,0.3979,67,3.38,49030898.0,0.4068,452,4.03
+MSFT,Microsoft Corp.,microsoft.com,2024-06-25,27771492.0,0.4988,247,3.59,9385839.0,0.4865,85,2.93,37157330.0,0.4957,206,3.42
+TWTR,"Twitter, Inc.",twitter.com,2024-06-25,19444371.0,0.375,541,9.65,30458222.0,0.5276,221,5.44,49902593.0,0.4681,346,7.08

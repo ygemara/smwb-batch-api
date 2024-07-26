@@ -1,0 +1,11 @@
+domain,category_id,brand,shopper_top_brands_category,yearmonth,category_sales_performance_top_brands_units_sold,category_sales_performance_top_brands_revenue,category_sales_performance_top_brands_product_views,category_sales_performance_top_brands_cvr
+amazon.com,-1,Amazon Basics,All Categories,2024-05,10831926,169755074,48726653,0.201
+amazon.com,-1,Generic,All Categories,2024-05,7921982,409707025,87210321,0.083
+amazon.com,-1,Amazon Essentials,All Categories,2024-05,5336433,85952375,57790973,0.087
+amazon.com,7141123011,Amazon Essentials,"Clothing, Shoes & Jewelry",2024-05,5258785,84611424,57187167,0.087
+amazon.com,-1,Happy Belly,All Categories,2024-05,4624090,20344935,3224955,1.236
+amazon.com,16310101,Happy Belly,Grocery & Gourmet Food,2024-05,4624090,20344935,3224955,1.236
+amazon.com,3760901,Amazon Basics,Health & Household,2024-05,4620045,54617988,10074445,0.421
+amazon.com,-1,Amazon,All Categories,2024-05,4445149,216027300,36029430,0.109
+amazon.com,15342811,Amazon Basics,Health & Household > Household Supplies,2024-05,3737560,45064963,8350623,0.414
+amazon.com,-1,Fresh,All Categories,2024-05,3317911,17322435,1523156,1.952
