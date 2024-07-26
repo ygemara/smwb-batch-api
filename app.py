@@ -10,7 +10,7 @@ st.set_page_config(page_title="Similarweb Samples", page_icon="images/similarweb
 st.image("images/omri_logo.webp")
 st.title('Batch API Dataset Menu')
 st.write("#### Choose Your Dataset, View a Sample, and Get API Code")
-st.write("##### **this tool allows you to discover new data sets - please reach out to your Account Manager for access)
+st.write("##### **this tool allows you to discover new data sets - please reach out to your Account Manager for access")
          
 exporter = False
 # Create a checkbox with a custom label for "Advanced Mode"
