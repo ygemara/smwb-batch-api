@@ -1,0 +1,33 @@
+table,granularity
+apps,"['daily', 'monthly', 'weekly']"
+apps_affinity,['monthly']
+apps_ranking_history,['daily']
+apps_retention,['monthly']
+audience_interests,['monthly']
+channel_conversion,['monthly']
+company_info,['daily']
+demographics,['monthly']
+desktop_top_geo,['monthly']
+keywords,"['daily', 'monthly', 'weekly']"
+marketing_channels,"['daily', 'monthly']"
+oss_phrase_conversion,['monthly']
+popular_pages,['monthly']
+referrals,['monthly']
+serp,['on-demand']
+shopper_brand_category,['monthly']
+shopper_category,['monthly']
+shopper_category_top_brands,['monthly']
+shopper_keyword_product,['monthly']
+shopper_keywords_brand,['monthly']
+shopper_keywords_category,['monthly']
+shopper_products_brand,['monthly']
+shopper_products_category,['monthly']
+similar_sites,['monthly']
+site_conversion,['monthly']
+site_keywords,"['7days', 'weekly']"
+technographics,['daily']
+traffic_and_engagement,"['daily', 'monthly', 'weekly']"
+traffic_sources,['monthly']
+web_app_cross_use,['monthly']
+website,['monthly']
+website_search_keywords,"['daily', 'monthly', 'weekly']"
