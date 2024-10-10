@@ -47,7 +47,7 @@ if exporter:
     table_names = exporter_tables
 else:
     table_names = list(tables_granularities_dict.keys())
- 
+st.write(table_names)
 
 all_dataframes = list(dataframes.keys())
 
