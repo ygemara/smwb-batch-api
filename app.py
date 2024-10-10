@@ -29,7 +29,7 @@ else:
   #st.write("Batch API Datasets")
   for file in os.listdir("datasets/bulk_api_datasets"):
     dataframes[file.replace(".csv","")] = pd.read_csv(f'datasets/bulk_api_datasets/{file}')
-  tables_granularities_mapping=pd.read_csv("tables_granularities_mapping.csv")
+  tables_granularities_mapping=pd.read_csv("tables_granularities_mapping_bulk_api.csv")
 
   # Add more elements specific to amateur mode here
 
